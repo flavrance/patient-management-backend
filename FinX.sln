@@ -1,0 +1,64 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{53137554-D77A-4B35-962A-44BE21764F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinX.Domain", "src\FinX.Domain\FinX.Domain.csproj", "{8E9D030E-644B-4A21-834B-F6C684CDA3F8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinX.Application", "src\FinX.Application\FinX.Application.csproj", "{97A21A82-4C89-4C2E-A0FD-49FB626105A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinX.Infrastructure", "src\FinX.Infrastructure\FinX.Infrastructure.csproj", "{137C0B9D-F6D4-4722-AC7C-6CB743E9E64A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinX.API", "src\FinX.API\FinX.API.csproj", "{9C15B40F-1470-441E-8971-1BA166862523}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tests", "tests", "{93048EE8-F41D-47B8-AC1F-85E62D13351A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinX.UnitTests", "tests\FinX.UnitTests\FinX.UnitTests.csproj", "{487D9CC3-0732-43A6-B08B-4BA3F6C584F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FinX.IntegrationTests", "tests\FinX.IntegrationTests\FinX.IntegrationTests.csproj", "{105F6596-FA6E-4F77-A60B-75B36893B954}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8E9D030E-644B-4A21-834B-F6C684CDA3F8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9D030E-644B-4A21-834B-F6C684CDA3F8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9D030E-644B-4A21-834B-F6C684CDA3F8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9D030E-644B-4A21-834B-F6C684CDA3F8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A21A82-4C89-4C2E-A0FD-49FB626105A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A21A82-4C89-4C2E-A0FD-49FB626105A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A21A82-4C89-4C2E-A0FD-49FB626105A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A21A82-4C89-4C2E-A0FD-49FB626105A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{137C0B9D-F6D4-4722-AC7C-6CB743E9E64A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{137C0B9D-F6D4-4722-AC7C-6CB743E9E64A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{137C0B9D-F6D4-4722-AC7C-6CB743E9E64A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{137C0B9D-F6D4-4722-AC7C-6CB743E9E64A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C15B40F-1470-441E-8971-1BA166862523}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C15B40F-1470-441E-8971-1BA166862523}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C15B40F-1470-441E-8971-1BA166862523}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C15B40F-1470-441E-8971-1BA166862523}.Release|Any CPU.Build.0 = Release|Any CPU
+		{487D9CC3-0732-43A6-B08B-4BA3F6C584F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{487D9CC3-0732-43A6-B08B-4BA3F6C584F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{487D9CC3-0732-43A6-B08B-4BA3F6C584F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{487D9CC3-0732-43A6-B08B-4BA3F6C584F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{105F6596-FA6E-4F77-A60B-75B36893B954}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{105F6596-FA6E-4F77-A60B-75B36893B954}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{105F6596-FA6E-4F77-A60B-75B36893B954}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{105F6596-FA6E-4F77-A60B-75B36893B954}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8E9D030E-644B-4A21-834B-F6C684CDA3F8} = {53137554-D77A-4B35-962A-44BE21764F4C}
+		{97A21A82-4C89-4C2E-A0FD-49FB626105A6} = {53137554-D77A-4B35-962A-44BE21764F4C}
+		{137C0B9D-F6D4-4722-AC7C-6CB743E9E64A} = {53137554-D77A-4B35-962A-44BE21764F4C}
+		{9C15B40F-1470-441E-8971-1BA166862523} = {53137554-D77A-4B35-962A-44BE21764F4C}
+		{487D9CC3-0732-43A6-B08B-4BA3F6C584F6} = {93048EE8-F41D-47B8-AC1F-85E62D13351A}
+		{105F6596-FA6E-4F77-A60B-75B36893B954} = {93048EE8-F41D-47B8-AC1F-85E62D13351A}
+	EndGlobalSection
+EndGlobal
